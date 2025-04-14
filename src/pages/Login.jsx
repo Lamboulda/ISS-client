@@ -12,14 +12,14 @@ const Login = () =>{
 
       return (
         <>
-                <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+                <div className="flex min-h-full flex-1 flex-col justify-center px-6 pt-12 pb-100  lg:px-8">
                     <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                         <img
                             alt="Your Company"
                             src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                             className="mx-auto h-10 w-auto"
                         />
-                        <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
+                        <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight ">
                            Se connecter à son compte
                         </h2>
                     </div>
@@ -28,7 +28,7 @@ const Login = () =>{
                         <form onSubmit={e => handleLogin(e, infoUser)} method="POST" className="space-y-6">
                             <div>
                                 <div className="flex items-center justify-between">
-                                    <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900">
+                                    <label htmlFor="email" className="block text-sm/6 font-medium ">
                                         Email
                                     </label>
                                 </div>
@@ -47,7 +47,7 @@ const Login = () =>{
 
                             <div>
                                 <div className="flex items-center justify-between">
-                                    <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
+                                    <label htmlFor="password" className="block text-sm/6 font-medium ">
                                         Mot de passe
                                     </label>
                                 </div>

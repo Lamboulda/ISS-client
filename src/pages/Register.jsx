@@ -31,14 +31,14 @@ const Register = () => {
 
   return (
     <>
-            <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+            <div className="flex min-h-full flex-1 flex-col justify-center px-6 pt-12 pb-60 lg:px-8">
                 <div className="sm:mx-auto sm:w-full sm:max-w-sm">
                     <img
                         alt="Your Company"
                         src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                         className="mx-auto h-10 w-auto"
                     />
-                    <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
+                    <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight ">
                         Créer un nouveau compte
                     </h2>
                 </div>
@@ -47,7 +47,7 @@ const Register = () => {
                     <form onSubmit={handleRegistration} method="POST" className="space-y-6">
                         <div>
                             <div className="flex items-center justify-between">
-                                <label htmlFor="username" className="block text-sm/6 font-medium text-gray-900">
+                                <label htmlFor="username" className="block text-sm/6 font-medium ">
                                     Nom d'utilisateur
                                 </label>
                             </div>
@@ -66,7 +66,7 @@ const Register = () => {
 
                         <div>
                             <div className="flex items-center justify-between">
-                                <label htmlFor="email" className="block text-sm/6 font-medium text-gray-900">
+                                <label htmlFor="email" className="block text-sm/6 font-medium ">
                                     Addresse mail
                                 </label>
                             </div>
@@ -85,7 +85,7 @@ const Register = () => {
 
                         <div>
                             <div className="flex items-center justify-between">
-                                <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
+                                <label htmlFor="password" className="block text-sm/6 font-medium ">
                                     Mot de passe
                                 </label>
                             </div>
@@ -112,9 +112,9 @@ const Register = () => {
                         </div>
                     </form>
 
-                    <p className="mt-10 text-center text-sm/6 text-gray-500">
+                    <p className="mt-10 text-center text-sm/6 ">
                         Vous avez déjà un compte?{' '}
-                        <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+                        <a href="#" className="font-semibold text-indigo-400 hover:text-indigo-300">
                             Connectez vous
                         </a>
                     </p>

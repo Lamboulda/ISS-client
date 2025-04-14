@@ -5,7 +5,7 @@ import { AuthContext } from "../context/AuthContext.jsx"
 const NavBar = () => {
     const { isAuthenticated, handleLogout } = useContext(AuthContext)
     return(
-        <nav className="flex justify-center bg-black/75 text-white rounded-lg p-4 ">
+        <nav className="flex justify-center bg-blue-950/75 text-white rounded-lg p-4 ">
             <Link to={'/'} className="px-2">Accueil</Link>
             {!isAuthenticated ? (
                 <>
